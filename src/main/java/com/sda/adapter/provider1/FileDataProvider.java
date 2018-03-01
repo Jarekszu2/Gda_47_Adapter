@@ -37,6 +37,6 @@ public class FileDataProvider {
     }
 
     public List<Person> getPeopleList(){
-        
+        return peopleList;
     }
 }
