@@ -31,7 +31,7 @@ public class FileDataProvider {
     }
 
     private Person parse(String line) {
-        String[] splits = line.split(";");
+        String[] splits = line.split(" ");
 
         return new Person(Integer.parseInt(splits[0]), splits[1], splits[2], splits[3], LocalDate.parse(splits[4], FORMATTER));
     }
