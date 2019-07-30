@@ -1,6 +1,9 @@
 package com.sda.adapter.provider3;
 
+import lombok.Data;
+
 import java.time.LocalDate;
+@Data
 
 public class Human {
     private int id;

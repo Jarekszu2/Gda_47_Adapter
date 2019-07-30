@@ -17,7 +17,7 @@ public class RandomDataProvider {
         for (int i = 0; i < 100; i++) {
             userList.add(new User(
                     r.nextInt(),
-                    UUID.randomUUID().toString().substring(r.nextInt(5), r.nextInt(10) + 5),
+                    UUID.randomUUID().toString().substring(r.nextInt(5), r.nextInt(10) + 5) + " " + UUID.randomUUID().toString().substring(r.nextInt(5), r.nextInt(10) + 5),
                     String.valueOf(r.nextLong()),
                     generateRandomDate()));
         }

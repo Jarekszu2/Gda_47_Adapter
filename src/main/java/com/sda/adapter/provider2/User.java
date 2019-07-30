@@ -1,7 +1,9 @@
 package com.sda.adapter.provider2;
 
-import java.time.LocalDate;
+import lombok.Data;
 
+import java.time.LocalDate;
+@Data
 public class User {
     private int identifier;
     private String nameAndSurname;

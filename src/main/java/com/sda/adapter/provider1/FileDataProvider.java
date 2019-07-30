@@ -16,6 +16,7 @@ public class FileDataProvider {
 
     public FileDataProvider() {
         peopleList = new ArrayList<>();
+        initAndLoad();
     }
 
     public void initAndLoad(){

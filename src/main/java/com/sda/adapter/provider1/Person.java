@@ -1,7 +1,9 @@
 package com.sda.adapter.provider1;
 
-import java.time.LocalDate;
+import lombok.Data;
 
+import java.time.LocalDate;
+@Data
 public class Person {
     private int id;
 
@@ -57,4 +59,5 @@ public class Person {
     public void setBirthDate(LocalDate birthDate) {
         this.birthDate = birthDate;
     }
+
 }
